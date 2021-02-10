@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Formless And Void</title>
-        <link href="style.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-        <div id="form">
-            <label for="birthdaytime">FirstName</label>
-            <input type="text" id="test" />
-            <label for="birthdaytime">SecondName</label>
-            <input type="text" id="first"/>
-            <form>
-                <label for="birthdaytime">Birthday (date and time):</label>
-                <input type="text" id="birthdaytime" name="birthdaytime">
-              </form>
-            <button>Submit</button>
-        </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formless And Void</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="form">
+      <label for="birthdaytime">FirstName</label>
+      <input type="text" id="test" />
+      <label for="birthdaytime">SecondName</label>
+      <input type="text" id="first" />
+      <form>
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="text" id="birthdaytime" name="birthdaytime" />
+      </form>
 
+      <div>
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" />
+      </div>
 
-        <div id="results">
-            <h1 class="test"></h1>
-            <h1 class="first"></h1>
-            <h1 class="birthdaytime"></h1>
-        </div>
+      <button>Submit</button>
+    </div>
 
-        <script src="main.js"></script>
-    </body>
+    <div id="results">
+      <h1 class="test"></h1>
+      <h1 class="first"></h1>
+      <h1 class="birthdaytime"></h1>
+      <h1 class="email"></h1>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
 </html>
